@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hibernation Survival</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🧪 Hibernation Experiment</h1>
+        <div id="status">
+            <p>❤️ Health: <span id="health">100</span>%</p>
+            <p>✋ Hand: <span id="hand-status">Intact</span></p>
+            <p>💤 Status: <span id="hibernation-status">Hibernating</span></p>
+        </div>
+        <div class="buttons">
+            <button onclick="cutHand()">✂️ Amputate Hand</button>
+            <button onclick="cutWithKnife()">🔪 Small Knife Cut</button>
+            <button onclick="giveMeds()">💉 Administer Meds</button>
+            <button onclick="wakeUp()">🔔 Wake Subject</button>
+            <button onclick="resetExperiment()">🔄 Reset</button>
+        </div>
+        <div id="message" class="message"></div>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>
